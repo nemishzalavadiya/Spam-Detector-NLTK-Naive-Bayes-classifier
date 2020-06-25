@@ -8,7 +8,9 @@ NLTK | Naive Bayes Classifier | Tf-Idf Model / Bag-Of-Word Model | Pre-processin
   
  
 > Why Naive Bayes ?
-- As we know, In spam detection we uses word which is matter, so here words are independent of each other. it's not depend on previous or next word so it's going to be best.
+- As we know, In spam detection we uses word as a feature which is going to classify the document. So, here words( features ) are independent of each other. it isn't depend on previous or next word. So Naive Bayes works fine and in my case it's worked more accurately then I expected.
+
+> Accuracy :
 - Here this model's accuracy :
   - Training Set : 99.87657243 [ here i have used 8K+ messages ]
   - Test Set     : 98.5647832  [ here i have used 4k+ messages ]
